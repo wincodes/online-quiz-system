@@ -1,0 +1,14 @@
+{
+    "name": "online-quiz-system",
+    "version": "1.0.0",
+    "description": "Node js and Vue js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index"
+    },
+    "author": "Godwin Otokina",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

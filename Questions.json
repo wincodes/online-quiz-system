@@ -1,0 +1,91 @@
+[{
+        "id": "1",
+        "question": "Which of these can fly?",
+        "a": "Ant",
+        "b": "Bee",
+        "c": "Dog",
+        "d": "worm",
+        "correct_answer": "b"
+    },
+    {
+        "id": "2",
+        "question": "What year did Nigeria gain independence?",
+        "a": "1979",
+        "b": "1984",
+        "c": "1967",
+        "d": "1960",
+        "correct_answer": "d"
+    },
+    {
+        "id": "3",
+        "question": "What year did nogeria become a republic?",
+        "a": "1963",
+        "b": "1984",
+        "c": "1967",
+        "d": "1960",
+        "correct_answer": "a"
+    },
+    {
+        "id": "4",
+        "question": "What sweet food made by bees using nectar from flowers?",
+        "a": "sugar",
+        "b": "coke",
+        "c": "honey",
+        "d": "sweet",
+        "correct_answer": "c"
+    },
+    {
+        "id": "5",
+        "question": "Which country is home to the kangaroo??",
+        "a": "nigeria",
+        "b": "amwrica",
+        "c": "australia",
+        "d": "china",
+        "correct_answer": "c"
+    },
+    {
+        "id": "6",
+        "question": "What is the top colour in a rainbow?",
+        "a": "orange",
+        "b": "yellow",
+        "c": "green",
+        "d": "red",
+        "correct_answer": "d"
+    },
+    {
+        "id": "7",
+        "question": "How many colours are in a rainbow?",
+        "a": "7",
+        "b": "8",
+        "c": "6",
+        "d": "5",
+        "correct_answer": "a"
+    },
+    {
+        "id": "8",
+        "question": "What is the name of Harry Potter’s pet owl?",
+        "a": "ronald",
+        "b": "haromony",
+        "c": "hedwig",
+        "d": "scabbers",
+        "correct_answer": "c"
+    },
+    {
+        "id": "9",
+        "question": "What is the distance around a circle called?",
+        "a": "area",
+        "b": "circumference",
+        "c": "perimeter",
+        "d": "volume",
+        "correct_answer": "b"
+    },
+    {
+        "id": "10",
+        "question": "What is the capital of England?",
+        "a": "london",
+        "b": "manchester",
+        "c": "liverpool",
+        "d": "northampton",
+        "correct_answer": "a"
+    }
+]
