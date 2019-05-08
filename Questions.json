@@ -18,7 +18,7 @@
     },
     {
         "id": "3",
-        "question": "What year did nogeria become a republic?",
+        "question": "What year did nigeria become a republic?",
         "a": "1963",
         "b": "1984",
         "c": "1967",
@@ -38,7 +38,7 @@
         "id": "5",
         "question": "Which country is home to the kangaroo??",
         "a": "nigeria",
-        "b": "amwrica",
+        "b": "america",
         "c": "australia",
         "d": "china",
         "correct_answer": "c"

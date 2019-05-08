@@ -13,7 +13,12 @@ router.get('/', (req, res) => {
 });
 
 
-
 //process the answers
+router.post('/', (req, res) => {
+
+    name = req.body;
+    res.status(201).send();
+    console.log(name);
+})
 
 module.exports = router;
