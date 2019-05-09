@@ -7,4 +7,4 @@ on root folder  $npm start
 
 $cd view (switch to view folder while server is still running)
 
-$npm run server
+$npm run serve
