@@ -36,7 +36,7 @@ router.post('/', (req, res) => {
 
 
     //percentage result
-    var percent = (rightAnswers.length / numAnswered) * 100;
+    var percent = ((rightAnswers.length / numAnswered) * 100).toFixed(0);
     // console.log(percent + '%');
 
 
@@ -70,7 +70,7 @@ router.post('/', (req, res) => {
 
 
     //send the request
-    res.status(201).send()
+    res.json(percent)
     res.data = ''
 })
 

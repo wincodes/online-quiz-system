@@ -51,7 +51,19 @@
                 <button class="btn btn-primary">Submit</button>
               </div>
             </div>
-         </form> 
+         </form>
+         <div class="card" v-if="response" id="response" v-scroll-to="'#response'"> 
+            <b-alert show variant="success">
+            <h4 class="alert-heading">Quiz Completed!</h4>
+            <p>
+              You Scored {{response}}%
+            </p>
+            <hr>
+            <p class="mb-0">
+                <button class="btn-primary" v-on:click="reload()">Retake Quiz</button>
+            </p>
+          </b-alert>
+         </div>
         </div>
     </div>
     
@@ -74,7 +86,8 @@ export default {
       slice:5,
       name:'',
       email:'',
-      answers:[]
+      answers:[],
+      response:''
     }
   },
   mounted(){
@@ -117,7 +130,18 @@ export default {
         name: this.name,
         email: this.email,
         answers: this.answers
+      }).then(response => {
+       this.response = response.data;
       });
+      this.name = ''
+      this.email = ''
+      this.answers = ''
+      this.data =''
+      this.sliceValue=''
+    },
+
+    reload(){
+      window.location.reload()
     }
   }
 }
