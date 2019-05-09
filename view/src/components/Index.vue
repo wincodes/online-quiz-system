@@ -48,7 +48,7 @@
             </div>
             <div class="form-group row">
               <div class="col-sm-10">
-                <button class="btn btn-primary">Submit</button>
+                <button :disabled='disable' class="btn btn-primary">Submit</button>
               </div>
             </div>
          </form>
@@ -60,7 +60,7 @@
             </p>
             <hr>
             <p class="mb-0">
-                <button class="btn-primary" v-on:click="reload()">Retake Quiz</button>
+                <button class="btn-primary" v-on:click="reload()">Take Another Quiz</button>
             </p>
           </b-alert>
          </div>
@@ -87,7 +87,8 @@ export default {
       name:'',
       email:'',
       answers:[],
-      response:''
+      response:'',
+      disable: false
     }
   },
   mounted(){
@@ -108,20 +109,22 @@ export default {
     createSlice(sliceValue){
       this.slice = sliceValue
       this.data = this.randomize(this.data)
+      this.key =''
     },
 
     //get the individual questions and answers and push to the answers array
     onChange(event, id, correct_ans) {
     
-    //check if the id of the array already exists and remove it, --form values that are modified
-    // for (var i = 0; i < this.answers.length; i++) {
-    //     if (this.answers[i].id == id) {
-    //         this.answers.splice(i);
-    //         }
-    //     }
+    // check if the id of the array already exists and remove it, --form values that are modified
+    for (var i = this.answers.length - 1; i >= 0; --i) {
+    if (this.answers[i].id === id) {
+        this.answers.splice(i, 1);
+    }
+}
+
 
         //add item to the array
-        this.answers.push({id: id, ans: event.target.value, correct_answer: correct_ans})
+        this.answers.push({id: id, ans: event.target.value, correct_answer: correct_ans});
     },
 
     //post the questions answered
@@ -138,10 +141,16 @@ export default {
       this.answers = ''
       this.data =''
       this.sliceValue=''
+      this.isDisabled()
     },
 
     reload(){
       window.location.reload()
+    },
+
+    //disable the submit button
+    isDisabled(){
+      this.disable = true
     }
   }
 }

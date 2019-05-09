@@ -4,7 +4,7 @@
         "a": "Ant",
         "b": "Bee",
         "c": "Dog",
-        "d": "worm",
+        "d": "Worm",
         "correct_answer": "b"
     },
     {
@@ -28,28 +28,28 @@
     {
         "id": "4",
         "question": "What sweet food made by bees using nectar from flowers?",
-        "a": "sugar",
-        "b": "coke",
-        "c": "honey",
-        "d": "sweet",
+        "a": "Sugar",
+        "b": "Coke",
+        "c": "Honey",
+        "d": "Sweet",
         "correct_answer": "c"
     },
     {
         "id": "5",
         "question": "Which country is home to the kangaroo??",
-        "a": "nigeria",
-        "b": "america",
-        "c": "australia",
-        "d": "china",
+        "a": "Nigeria",
+        "b": "America",
+        "c": "Australia",
+        "d": "China",
         "correct_answer": "c"
     },
     {
         "id": "6",
         "question": "What is the top colour in a rainbow?",
-        "a": "orange",
-        "b": "yellow",
-        "c": "green",
-        "d": "red",
+        "a": "Orange",
+        "b": "Yellow",
+        "c": "Green",
+        "d": "Red",
         "correct_answer": "d"
     },
     {
@@ -64,28 +64,28 @@
     {
         "id": "8",
         "question": "What is the name of Harry Potter’s pet owl?",
-        "a": "ronald",
-        "b": "haromony",
-        "c": "hedwig",
-        "d": "scabbers",
+        "a": "Ronald",
+        "b": "Haromony",
+        "c": "Hedwig",
+        "d": "Scabbers",
         "correct_answer": "c"
     },
     {
         "id": "9",
         "question": "What is the distance around a circle called?",
-        "a": "area",
-        "b": "circumference",
-        "c": "perimeter",
-        "d": "volume",
+        "a": "Area",
+        "b": "Circumference",
+        "c": "Perimeter",
+        "d": "Volume",
         "correct_answer": "b"
     },
     {
         "id": "10",
         "question": "What is the capital of England?",
-        "a": "london",
-        "b": "manchester",
-        "c": "liverpool",
-        "d": "northampton",
+        "a": "London",
+        "b": "Manchester",
+        "c": "Liverpool",
+        "d": "Northampton",
         "correct_answer": "a"
     }
 ]
