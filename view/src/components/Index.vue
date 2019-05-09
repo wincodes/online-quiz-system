@@ -94,7 +94,7 @@ export default {
   mounted(){
     try{
       //get the questions using axios
-    axios.get('http://localhost:3000/quiz').then(response => (this.data = this.randomize(response.data)))
+    axios.get('/quiz').then(response => (this.data = this.randomize(response.data)))
   }catch(err){
     throw (err);
   }
@@ -129,7 +129,7 @@ export default {
 
     //post the questions answered
     postAnswers(){
-      axios.post('http://localhost:3000/quiz', {
+      axios.post('/quiz', {
         name: this.name,
         email: this.email,
         answers: this.answers
